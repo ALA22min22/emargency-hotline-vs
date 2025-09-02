@@ -164,7 +164,16 @@ function copyText(copy) {
     
 }   
 
-// history portion :
+// history Clear portion :
+
+document.getElementById('clear')
+.addEventListener('click', function(){
+   
+    history.length = 0;
+     
+    document.getElementById('history-container').innerHTML = '';
+    
+})
 
 
 
